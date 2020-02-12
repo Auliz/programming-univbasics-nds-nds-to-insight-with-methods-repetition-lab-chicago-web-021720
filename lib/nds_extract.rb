@@ -43,7 +43,7 @@ def total_gross(source)
     list_name = list_of_directors(directors_database)
     dir_name = list_name[index]
     name_total_hash = directors_totals(directors_database)
-    total += name_total_hash[dir_name[0]]
+    total += name_total_hash[dir_name]
     index += 1 
   end 
  total
